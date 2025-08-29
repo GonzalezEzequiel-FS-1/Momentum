@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Target all parts of the progress bar */
+.progress-custom {
+  @apply appearance-none overflow-hidden rounded-full bg-stone-300;
+}
+
+/* Fill bar for Chromium (Chrome, Edge) */
+.progress-custom::-webkit-progress-value {
+  @apply bg-blue-500;
+}
+
+/* Background bar for Chromium */
+.progress-custom::-webkit-progress-bar {
+  @apply bg-stone-300;
+}
+
+/* Fill bar for Firefox */
+.progress-custom::-moz-progress-bar {
+  background-color: #7200ca; /* Tailwind blue-500 */
+}
+
+.rbc-today {
+  background-color: rgba(96, 165, 250, 0.2); /* light blue for today */
+}
+
+.rbc-selected-cell {
+  background-color: rgba(234, 179, 8, 0.2); /* amber highlight on click */
+}
+
+.rbc-event {
+  background-color: #3b82f6 !important; /* Tailwind blue-500 */
+  color: white !important;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 2px 4px;
+  font-size: 0.75rem;
+}

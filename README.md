@@ -26,7 +26,8 @@ This project is developed as part of **Project & Portfolio IV: Web Development**
 
 - **Frontend**: React + Vite  
 - **Styling**: TailwindCSS  
-- **Backend & Auth**: Firebase (Auth, Firestore)  
+- **Auth**: Firebase 
+- **BackEnd Storage**: MongoDB  
 - **Routing**: React Router  
 - **Version Control**: Git & GitHub  
 - **Build Tools**: PostCSS, ESLint  

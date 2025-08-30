@@ -240,6 +240,18 @@ Guidelines and procedures for maintaining the app are available in [`Maintenance
 
 ---
 
+## 📦 Handoff Packet
+
+All materials required for evaluation are included in this repository:
+
+- **Installation Instructions:** [`INSTALL.md`](./INSTALL.md)
+- **Maintenance Plan:** [`MaintenancePlan.md`](./MaintenancePlan.md)
+- **Project Documentation:** All docs in [`docs/`](./docs/)
+- **Source Code:** `dev/FrontEnd` and `dev/Server`
+- **Assets & Media:** Included in `dev/FrontEnd/src/assets` and `dev/FrontEnd/dist/assets`
+
+---
+
 ## 👥 Contributing
 
 Contributions are welcome! Please follow best practices, use branches, and open pull requests for any updates. A full development and contribution guide will be added in future updates.

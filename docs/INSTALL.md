@@ -9,7 +9,7 @@
 
 ## 2. Clone the Repository
 ```bash
-git clone [https://github.com/GonzalezEzequiel-FS-1/Momentum.git](https://github.com/GonzalezEzequiel-FS-1/Momentum.git)
+git clone https://github.com/GonzalezEzequiel-FS-1/Momentum.git
 cd Momentum
 ```
 
